@@ -1,0 +1,5 @@
+[
+	{"id": 1,"author": "Kirill Drozdov", "comment": "This is one comment"},
+	{"id": 2, "author": "Klop", "comment": "This is *another* comment"},
+	{"id": 3, "author": "Klop", "comment": "This is *another* comment"}
+]

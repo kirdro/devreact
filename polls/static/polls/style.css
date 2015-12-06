@@ -1,0 +1,617 @@
+.CommentBox{
+	height: 100%;
+}
+.comment {
+	color: black;
+}
+.commentListBox {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+	color: rgb(51, 51, 51);
+	display: block;
+	font-family: RobotoDraft, Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+	position: relative;
+	zoom: 1;
+}
+.commentListDefault {
+	/*background-color: #9d9101;*/
+	background: url(img/ajax-loader.gif) no-repeat center,  #9d9101;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	border-bottom-color: rgb(51, 51, 51);
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	border-bottom-style: none;
+	border-bottom-width: 0px;
+	border-image-outset: 0px;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left-color: rgb(51, 51, 51);
+	border-left-style: none;
+	border-left-width: 0px;
+	border-right-color: rgb(51, 51, 51);
+	border-right-style: none;
+	border-right-width: 0px;
+	border-top-color: rgb(51, 51, 51);
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	border-top-style: none;
+	border-top-width: 0px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 17px 0px, rgba(0, 0, 0, 0.188235) 0px 6px 20px 0px;
+	box-sizing: border-box;
+	color: rgb(51, 51, 51);
+	display: block;
+	font-family: RobotoDraft, Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 19px;
+	padding-left: 19px;
+	padding-right: 19px;
+	padding-top: 19px;
+	zoom: 1;
+	cursor: pointer;
+}
+.commentList{
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	border-bottom-color: rgb(51, 51, 51);
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	border-bottom-style: none;
+	border-bottom-width: 0px;
+	border-image-outset: 0px;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left-color: rgb(51, 51, 51);
+	border-left-style: none;
+	border-left-width: 0px;
+	border-right-color: rgb(51, 51, 51);
+	border-right-style: none;
+	border-right-width: 0px;
+	border-top-color: rgb(51, 51, 51);
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	border-top-style: none;
+	border-top-width: 0px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 17px 0px, rgba(0, 0, 0, 0.188235) 0px 6px 20px 0px;
+	box-sizing: border-box;
+	color: rgb(51, 51, 51);
+	display: block;
+	font-family: RobotoDraft, Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 19px;
+	padding-left: 19px;
+	padding-right: 19px;
+	padding-top: 19px;
+	zoom: 1;
+	cursor: pointer;
+}
+.commentListBack {
+	background-color: rgb(165, 191, 151);
+}
+body {
+	background: #bdecb6;
+	margin: 0px;
+}
+
+.textColor {
+	color: #543454;
+}
+
+.textColor2 {
+	color: #ffff99;
+}
+.alert2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	min-height: 500px;
+	background: rgba(10, 0, 5, .9);
+	padding: 0px;
+	margin: 0px;
+	top: 0px;
+	left: 0px;
+}
+.alertChild {
+	margin: 50px auto;
+	width: 653px;
+	height: 400px;
+	/*background: #20214f;*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#661d93+0,2a4f3b+100 */
+background: #661d93; /* Old browsers */
+background: -moz-linear-gradient(top,  #661d93 0%, #2a4f3b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#661d93), color-stop(100%,#2a4f3b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #661d93 0%,#2a4f3b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #661d93 0%,#2a4f3b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #661d93 0%,#2a4f3b 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #661d93 0%,#2a4f3b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#661d93', endColorstr='#2a4f3b',GradientType=0 ); /* IE6-9 */
+
+	border-radius: 30px;
+	border: 2px solid blue;
+}
+
+#divInfo {
+  padding: 15px;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #dff0d8;
+}
+
+#divBox {
+	padding-bottom: 10px;
+}
+/*.red {
+	background: red;
+}
+.green {
+	background: green;
+}
+.blue {
+	background: blue;
+}*/
+#inputSubmit, .button, #buttonRemove {
+	width: 100px;
+	height: 30px;
+	border: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 10px;
+	/*background: #126697;*/
+}
+#inputSubmit {
+	background: #57b0ff;
+}
+#inputSubmit:hover {
+	background: #0080f0;
+}
+.button {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-webkit-user-select: none;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+border-bottom-color: rgb(0, 150, 136);
+border-bottom-left-radius: 2px;
+border-bottom-right-radius: 2px;
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0px;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(0, 150, 136);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(0, 150, 136);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(0, 150, 136);
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+border-top-style: none;
+border-top-width: 0px;
+box-shadow: none;
+box-sizing: border-box;
+color: rgb(0, 150, 136);
+cursor: pointer;
+display: inline-block;
+font-family: RobotoDraft, Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 500;
+height: 36px;
+line-height: 20px;
+margin-bottom: 10px;
+margin-left: 1px;
+margin-right: 1px;
+margin-top: 10px;
+outline-color: rgb(0, 150, 136);
+outline-style: none;
+outline-width: 0px;
+padding-bottom: 8px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 8px;
+position: relative;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+touch-action: manipulation;
+transition-delay: 0s, 0s;
+transition-duration: 0.2s, 0.28s;
+transition-property: background-color, box-shadow;
+transition-timing-function: ease, cubic-bezier(0.4, 0, 0.2, 1);
+vertical-align: middle;
+white-space: nowrap;
+width: 120.484px;
+zoom: 1;
+	position:fixed;
+	float: left;
+	top: 410px;
+}
+.button:active {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-webkit-user-select: none;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+border-bottom-color: rgb(32, 77, 116);
+border-bottom-left-radius: 2px;
+border-bottom-right-radius: 2px;
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0px;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(32, 77, 116);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(32, 77, 116);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(32, 77, 116);
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+border-top-style: none;
+border-top-width: 0px;
+box-shadow: none;
+box-sizing: border-box;
+color: rgb(0, 150, 136);
+cursor: pointer;
+display: inline-block;
+font-family: RobotoDraft, Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 500;
+height: 36px;
+line-height: 20px;
+margin-bottom: 10px;
+margin-left: 1px;
+margin-right: 1px;
+margin-top: 10px;
+outline-color: rgb(0, 150, 136);
+outline-offset: 0px;
+outline-style: none;
+outline-width: 0px;
+padding-bottom: 8px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 8px;
+position: relative;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+touch-action: manipulation;
+transition-delay: 0s, 0s;
+transition-duration: 0.2s, 0.28s;
+transition-property: background-color, box-shadow;
+transition-timing-function: ease, cubic-bezier(0.4, 0, 0.2, 1);
+vertical-align: middle;
+white-space: nowrap;
+width: 120.484px;
+zoom: 1;
+position:fixed;
+	float: left;
+	top: 410px;
+}
+.button:hover {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-webkit-user-select: none;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 150, 136, 0.2);
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+border-bottom-color: rgb(32, 77, 116);
+border-bottom-left-radius: 2px;
+border-bottom-right-radius: 2px;
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0px;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(32, 77, 116);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(32, 77, 116);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(32, 77, 116);
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+border-top-style: none;
+border-top-width: 0px;
+box-shadow: none;
+box-sizing: border-box;
+color: rgb(0, 150, 136);
+cursor: pointer;
+display: inline-block;
+font-family: RobotoDraft, Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 500;
+height: 36px;
+line-height: 20px;
+margin-bottom: 10px;
+margin-left: 1px;
+margin-right: 1px;
+margin-top: 10px;
+outline-color: rgb(0, 150, 136);
+outline-style: none;
+outline-width: 0px;
+padding-bottom: 8px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 8px;
+position: relative;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+touch-action: manipulation;
+transition-delay: 0s, 0s;
+transition-duration: 0.2s, 0.28s;
+transition-property: background-color, box-shadow;
+transition-timing-function: ease, cubic-bezier(0.4, 0, 0.2, 1);
+vertical-align: middle;
+white-space: nowrap;
+width: 120.484px;
+zoom: 1;
+position:fixed;
+	float: left;
+	top: 410px;
+}
+#buttonRemove {
+	background: #ff2e2e;
+}
+#buttonRemove:hover {
+	background: #f80000;
+}
+#inputInfo, .inputName, .inputAge {
+	height: 30px;
+	border: 1px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 10px;
+	font-size: 15pt;
+}
+#inputInfo:focus {
+	border-color: blue;
+	border-radius: 10px;
+}
+#divInfo:hover {
+	background: #90ee90;
+}
+.d {
+	width: 100px;
+	height: 20px;
+	background: red;
+	color: black;
+}
+h2 {
+	display: inline-block;
+	height: 30px;
+	min-width: 200px;
+}
+#divBox {
+	margin: auto, 0;
+}
+label {
+	display: inline-block;
+	width: 55px;
+}
+.divForm {
+	padding-top: 5px;
+}
+.error {
+	background: red;
+}
+.formInfo {
+	position: absolute;
+    top: 68px;
+}
+.inputClose {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	background: rgba(255, 0, 0, .3);
+	border: 0px;
+	margin-left: 276px;
+}
+.inputClose:hover {
+	background: rgba(255, 0, 0, 1);
+}
+#titleAlert {
+	margin-top: 80px;
+	margin-left: 25%;
+	color: #310062;
+	font-size: 15pt;
+	width: 100px;
+}
+#nameAlert {
+	margin-top: 30px;
+	margin-left: 25%;
+	color: #310062;
+	font-size: 15pt;
+	width: 100px;
+}
+#ageAlert {
+	margin-top: 30px;
+	margin-left: 25%;
+	margin-bottom: 15%;
+	font-size: 15pt;
+	color: #310062;
+	width: 100px;
+}
+#titleAlert:hover, #ageAlert:hover, #nameAlert:hover {
+	color: #120a8f;
+}
+
+.divMenu {
+	width: 800px;
+	height: 50px;
+	margin: 0px auto;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#661d93+0,2a4f3b+100&amp;0.5+0,0.5+100 */
+background: -moz-linear-gradient(top,  rgba(102,29,147,0.5) 0%, rgba(42,79,59,0.5) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(102,29,147,0.5)), color-stop(100%,rgba(42,79,59,0.5))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(102,29,147,0.5) 0%,rgba(42,79,59,0.5) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(102,29,147,0.5) 0%,rgba(42,79,59,0.5) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(102,29,147,0.5) 0%,rgba(42,79,59,0.5) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(102,29,147,0.5) 0%,rgba(42,79,59,0.5) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80661d93', endColorstr='#802a4f3b',GradientType=0 ); /* IE6-9 */
+	padding: 0px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: background .5s ease;
+}
+
+
+.divMenu:hover {
+
+background: #025669;
+
+}
+ul {
+	display: block;
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+}
+
+.divMenu > ul li {
+	display: block;
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.divMenu > ul li > a{
+	display: block;
+	width: 100%;
+	height: 70%;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	padding-top: 15px;
+	border-left: 1px solid green;
+	border-right: 1px solid green;
+}
+.divMenu > ul li > a:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#661d93+0,221e96+2,2a4f3b+100 */
+	background: #025669;
+	box-shadow:
+	0px -22px 32px -9px #fff inset;
+
+	/*transition-property: all;*/
+/*    transition-duration: 3s;
+    transition-delay: 1s;*/
+	transition: .2s linear;
+}
+.divMenu > ul li:nth-child(1) > a {
+	border-bottom-left-radius: 10px;
+}
+.divMenu > ul li:nth-child(4) > a {
+	border-bottom-right-radius: 10px;
+}
+.red {
+	background: red;
+	width: 100%;
+	height: 70%;
+}
+.green {
+	background: green;
+	height: 100px;
+	width: 100px;
+}
+
+
+/*.menu ul {
+  display: none;
+  margin: 0;
+}*/
+
+/*.menu .title {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.menu .title:before {
+  content: '▶';
+  padding-right: 6px;
+  color: green;
+}
+
+.menu.open ul {
+  display: block;
+}
+
+/*.menu.open .title:before {
+  content: '▼';
+}*/
+.divText {
+	background: green;
+}
+
+/* index3.js */
+
+.bord {
+	width: 100%;
+	height: 400px;
+	background: black;
+	margin: auto;
+	overflow: hidden;
+	z-index: 100;
+	position: relative;
+}
+
+.circle {
+	z-index: 2;
+	display: none;
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	border-radius: 5px;
+	position: absolute;
+	margin: 0px;
+/*	width: 40px;
+	height: 40px;
+	background: #fff;
+	border-radius: 20px*/
+}
+
+.iFrameBoxNews {
+	width: 50%;
+	height: 400px;
+	float: left;
+	position: fixed;
+}
+.boxNewsList {
+	float: right;
+	width: 50%
+}

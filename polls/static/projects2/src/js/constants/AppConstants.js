@@ -1,0 +1,5 @@
+module.exports = {
+	ADD_ITEM: 'ADD_ITEM',
+	REMOVE_ITEM: 'REMOVE_ITEM',
+	SET_COLOR: 'SET_COLOR'
+};
